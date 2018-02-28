@@ -3,7 +3,7 @@ module.exports = {
     url: 'https://lumen.netlify.com',
     title: 'Blog by John Doe',
     subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-    copyright: '© All rights reserved.',
+    copyright: '© Some rights reserved.',
     disqusShortname: '',
     menu: [
       {
@@ -11,11 +11,11 @@ module.exports = {
         path: '/'
       },
       {
-        label: 'About me',
+        label: 'About',
         path: '/about/'
       },
       {
-        label: 'Contact me',
+        label: 'Contact',
         path: '/contact/'
       }
     ],
@@ -120,9 +120,9 @@ module.exports = {
       options: { trackingId: 'UA-73379983-2' }
     },
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: 'gatsby-plugin-google-fonts',
       options: {
-        fonts: [`roboto\:400,400i,500,700`]
+        fonts: ['Libre Franklin:400,400i,500,700']
       }
     },
     {
